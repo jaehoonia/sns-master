@@ -1,6 +1,7 @@
 package com.fastcampus.snsproject.model;
 
 import com.fastcampus.snsproject.model.entity.PostEntity;
+import com.fastcampus.snsproject.model.entity.UserEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

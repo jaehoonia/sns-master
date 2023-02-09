@@ -1,6 +1,7 @@
 package com.fastcampus.snsproject.model;
 
 import com.fastcampus.snsproject.model.entity.CommentEntity;
+import com.fastcampus.snsproject.model.entity.PostEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

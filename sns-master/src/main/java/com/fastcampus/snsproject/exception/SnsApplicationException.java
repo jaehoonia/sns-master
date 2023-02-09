@@ -1,6 +1,5 @@
 package com.fastcampus.snsproject.exception;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -19,10 +18,10 @@ public class SnsApplicationException extends RuntimeException {
 
     @Override
     public String getMessage() {
-        if(message == null){
+        if (message == null) {
             return errorCode.getMessage();
         }
 
-        return String.format("%s. %s", errorCode, getMessage(), message);
+        return String.format("%s. %s", errorCode.getMessage(), message);
     }
 }

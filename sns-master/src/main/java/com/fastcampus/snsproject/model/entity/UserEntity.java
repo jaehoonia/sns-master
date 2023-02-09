@@ -27,8 +27,10 @@ public class UserEntity {
     @Column(name = "user_name", unique = true)
     private String userName;
 
+    @Column(name = "password")
     private String password;
 
+    @Column(name = "role")
     @Enumerated(EnumType.STRING)
     private UserRole role = UserRole.USER;
 
